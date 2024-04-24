@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+:root{
+  --color-text: #616161;
+  --color-text-btn: #ffffff;
+  --card1-gradient-color1: #f12711;
+  --card1-gradient-color2: #f5af19;
+  --card2-gradient-color1: #7F00FF;
+  --card2-gradient-color2: #E100FF;
+  --card3-gradient-color1: #3f2b96;
+  --card3-gradient-color2: #a8c0ff;
+  --card4-gradient-color1:  #f5af19;
+  --card4-gradient-color2: #f00f0f9a;
+  --card5-gradient-color1: #260cee;
+  --card5-gradient-color2: #14c0e2;
+  --card6-gradient-color1: #00ff2a;
+  --card6-gradient-color2: #1714e2;
+  --card7-gradient-color1: #e7f706;
+  --card7-gradient-color2: #627335;
+}
+ 
+.card-wrap{
+  width: 300px;
+  background: #fff;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.card-wrap:hover{
+  transform: scale(1.1);
+}
+.card-header{
+  height: 100px;
+  width: 100%;
+ background:  #f5af19;;
+  border-radius:100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+ 
+}
+.bg-custom {
+  background-color:#F0FFFF/* Set black background color */
+}
+ 
+.card-header i{
+  color: #fff;
+  font-size: 72px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.card-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+.card-text{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.card-btn{
+  border: none;
+  border-radius: 100px;
+  padding: 5px 30px;
+  color: #fff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.card-header.one{
+  background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-header.two{
+  background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-header.three{
+  background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-header.four{
+  background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+.card-header.five{
+  background: linear-gradient(to bottom left, var(--card5-gradient-color1), var(--card5-gradient-color2));
+}
+.card-header.six{
+  background: linear-gradient(to bottom left, var(--card6-gradient-color1), var(--card6-gradient-color2));
+}
+.card-header.seven{
+  background: linear-gradient(to bottom left, var(--card7-gradient-color1), var(--card7-gradient-color2));
+}
+ 
+.card-btn.one{
+  background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-btn.two{
+  background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-btn.three{
+  background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-btn.four{
+  background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+.card-btn.five{
+  background: linear-gradient(to left, var(--card5-gradient-color1), var(--card5-gradient-color2));
+}
+.card-btn.six{
+  background: linear-gradient(to left, var(--card6-gradient-color1), var(--card6-gradient-color2));
+}
+.card-btn.seven{
+  background: linear-gradient(to left, var(--card7-gradient-color1), var(--card7-gradient-color2));
+}
+/* Dashboard.css */
+ 
+/* Main container */
+.container {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 20px; /* Add padding */
+}
+ 
+/* Dashboard title */
+.label-control {
+  color: #007bff; /* Set text color */
+  font-size: 24px; /* Set font size */
+}
+ 
+/* Cards */
+.card {
+  border: 1px solid #dee2e6; /* Add border */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  margin-bottom: 20px; /* Add margin */
+}
+ 
+/* Card header */
+.card-header {
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 10px; /* Add padding */
+  border-top-left-radius: 10px; /* Add border radius to top left */
+  border-top-right-radius: 10px; /* Add border radius to top right */
+}
+ 
+/* Card content */
+.card-content {
+  padding: 20px; /* Add padding */
+}
+ 
+/* Button //* background-image: url('../../asset/ranger-4df6c1b6.jpg') ;/* Set background image  */
+.btn-primary {
+ 
+  background-color: #28a745; /* Set background color */
+  border-color: #28a745; /* Set border color */
+  color: #fff; /* Set text color */
+  transition: background-color 0.3s; /* Add transition */
+}
+ 
+.btn-primary:hover {
+  background-color: #6a6f6b; /* Change background color on hover */
+}
+.bg-custom {
+  background-image: url('../../asset/img.avif');
+  background-size: cover; /* Cover the entire container */
+background-position: center; /* Center the background image */
+}
+ 
+ 
+ 
+.move-left-to-right {
+  animation: moveLeftToRight 5s infinite alternate; /* Animation definition */
+}
+ 
+/* Keyframes for the animation */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100px); /* Start position */
+  }
+  100% {
+    transform: translateX(0px); /* End position */
+  }
+}
+ 
+/* Ensure that the card group container is a flexbox */
+.card-group {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add gap between the cards */
+}
+ 
+/* Fixed width for cards */
+.card-wrap {
+  flex: 0 0 300px; /* Prevent cards from growing or shrinking, set a fixed width */
+  max-width: 300px; /* Set maximum width to maintain consistency */
+  
+}
+
+
+ 
+/* Ensure the container for cards has padding */
+.container {
+  padding: 20px;
+}
+ 
+/* Media queries for adjusting layout at different screen sizes */
+@media screen and (max-width: 1200px) {
+  .card-group {
+    justify-content: flex-start; /* Align cards to the left */
+  }
+}
+ 
+@media screen and (max-width: 992px) {
+  .card-group {
+    justify-content: center; /* Center cards again */
+  }
+}
+ 
+@media screen and (max-width: 768px) {
+  .card-group {
+    justify-content: space-between; /* Space cards evenly across the container */
+  }
+}
+
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+

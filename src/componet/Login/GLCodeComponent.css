@@ -1,0 +1,17 @@
+/* GLCodeComponent.css */
+/* Ensure the component fills the entire viewport */
+.bg-custom1 {
+    min-height: 100vh; /* Ensure it takes up at least the height of the viewport */
+    display: flex; /* Use flexbox to fill the entire viewport */
+    flex-direction: column; /* Arrange children vertically */
+    border-left: 1px solid #ccc; /* Add left border */
+    border-right: 1px solid #ccc; /* Add right border */
+  }
+  
+  .selected {
+    background-color: red;
+  }
+  .customer-table tbody tr.selected {
+    background-color:#90EE90;
+  }
+  

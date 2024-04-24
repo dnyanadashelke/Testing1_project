@@ -1,0 +1,59 @@
+.bg-image{
+  background-image: url('../Form/background-logo.png');
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.form-control{
+
+margin-left: 0px;
+margin-right: 0px;
+}  
+
+
+.form-control {
+border-radius: 20px; /* Adjust the value as needed */
+}
+
+.btn {
+border-radius: 25px; /* Adjust the value as needed */
+width: 150px;
+}
+
+.login-card {
+border: 3px solid black !important; /* Add bold border to login box */
+}
+
+.button-container {
+display: flex;
+justify-content: center; /* Center align buttons horizontally */
+}
+
+.square-button {
+border-radius: 0;
+border: none;
+margin-right: 10px; /* Add space between buttons */
+}
+
+@media (max-width: 768px) {
+.button-container {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center; /* Center align buttons vertically */
+}
+
+.square-button {
+    margin-right: 0; /* Remove right margin for stacked buttons */
+    margin-bottom: 10px; /* Add space between stacked buttons */
+}
+}
+
+
+.square-input {
+border: 2px solid black !important; /* Add border to input */
+border-radius: 0 !important; /* Make input square */
+}

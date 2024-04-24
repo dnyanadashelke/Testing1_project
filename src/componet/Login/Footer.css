@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 17, 37); /* Set background color */
+    color:white; /* Set text color */
+ 
+}
+
+#img-logo-footer {
+    margin-bottom: 20px;
+}
+
+.rights {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a img {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+a img:hover {
+    transform: scale(1.2);
+}

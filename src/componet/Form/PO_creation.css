@@ -1,0 +1,169 @@
+.remove-button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+   
+  .remove-button:focus {
+    outline: none; /* Optional: remove focus outline */
+  }
+   
+  .icon {
+    color: inherit; /* Inherit color from parent element */
+  }
+   
+  .remove-button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+   
+  .remove-icon {
+    background: none;
+    border: none;
+    color: inherit; /* Inherit the color from the parent element */
+    font-size: inherit; /* Inherit the font size from the parent element */
+  }
+  .red-icon {
+    color: red;
+  }
+   
+  .remove-button {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .button-content {
+    display: flex;
+    align-items: center;
+  }
+  .add-customer-button::after {
+   
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+   
+  .remove-button:hover::after {
+    opacity: 1;
+  }
+   
+  .hover-text {
+    display: none;
+    margin-left: 5px; /* Adjust spacing between icon and text */
+  }
+  .remove-button:hover .hover-text {
+    display:inline-block;
+  }
+  .remove-button:focus {
+    outline: none; /* Optional: remove focus outline */
+  }
+   
+  .icon {
+    color: inherit; /* Inherit color from parent element */
+  }
+   
+   
+   
+  .remove-button {
+    background: none;
+    border: none;
+    padding: 10px;
+  }
+   
+  .remove-icon {
+    margin-right: 0.3cm;
+    background: none;
+    border: none;
+    color: inherit; /* Inherit the color from the parent element */
+    font-size: inherit; /* Inherit the font size from the parent element */
+  }
+  .red-icon {
+    color: red;
+  }
+  .green-icon {
+    color: green;
+  }
+   
+  .icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .hover-text {
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+  }
+  
+  button:hover .hover-text {
+    opacity: 1; /* Show the text on hover */
+  }
+  button:hover .hover-text {
+    opacity: 1;
+  }  
+
+  .hover-text {
+    display: none; /* Initially hide the message */
+    display: none; /* Initially hide the message */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; 
+  }
+  
+  button:hover .hover-text {
+    display: inline-block; /* Show the message on hover */
+    position: absolute;
+    top: 10%;
+    width: '100px';
+    left: 270%;
+    transform: translateX(-50%);
+    background-color:  #ADD8E6;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+
+  button:hover .hover-text1 {
+    display: inline-block; /* Show the message on hover */
+    position: absolute;
+    top: 100%;
+    width: '100px';
+    left: 100%;
+    transform: translateX(-50%);
+    background-color:  #ADD8E6;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    color: black;
+  }
+  .hover-text1 {
+    display: none; /* Initially hide the message */
+    display: none; /* Initially hide the message */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow */
+    text-overflow: ellipsis; 
+  }
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+
+
+ 

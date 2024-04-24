@@ -1,0 +1,256 @@
+/* CustomerForm.css */
+.blurred {
+  filter: blur(1px); /* Reduce the blur effect */
+  pointer-events: none; /* Disable mouse events on the blurred area */
+  opacity: 0.9; /* Adjust the opacity to make the background slightly visible */
+}
+.white-background {
+  background-color: #ffffff; /* Set background color to white */
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  width: 120px; /* Increase the width */
+  height: 120px; /* Increase the height */
+  border: 8px solid rgba(0, 0, 0, 0.3); /* Transparent border */
+  border-top: 8px solid #007bff; /* Blue border on top */
+  border-radius: 50%;
+  animation: spin 1s linear infinite; /* Rotate the spinner */
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.file-download-box {
+  display: inline-block;
+  background-color: #007bff; /* Change to your desired background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-download-box:hover {
+  background-color: #ff6347; /* Darken the background color on hover */
+}
+
+.download-icon {
+  margin-right: 8px;
+}
+
+.download-text {
+  font-weight: bold;
+}
+
+.bg-custom {
+  background-image: url('../../asset/img.avif');
+  background-size: cover; /* Cover the entire container */
+background-position: center; /* Center the background image */
+}
+/* Add this CSS to your existing CSS file or create a new one */
+.alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.alert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #721c24;
+  font-size: 20px;
+}
+
+.alert-text {
+  margin: 0;
+}
+/* Add this CSS to your stylesheet or component style */
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.large-button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+
+.partner-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.partner-table th, .partner-table td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.partner-table th {
+  background-color: #f2f2f2;
+}
+
+.partner-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.partner-table tr:hover {
+  background-color: #dddddd;
+}
+.note-box {
+  border: 1px solid #ced4da; /* Add border */
+  border-radius: 0.25rem; /* Add border radius */
+  padding: 0.5rem; /* Add padding */
+  background-color: #f8f9fa; /* Add background color */
+}
+.remove-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+ 
+.remove-button:focus {
+  outline: none; /* Optional: remove focus outline */
+}
+ 
+.icon {
+  color: inherit; /* Inherit color from parent element */
+}
+ 
+.remove-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+ 
+.remove-icon {
+  background: none;
+  border: none;
+  color: inherit; /* Inherit the color from the parent element */
+  font-size: inherit; /* Inherit the font size from the parent element */
+}
+.red-icon {
+  color: red;
+}
+.green-icon {
+  color: green;
+}
+
+.no-background {
+  background-color: transparent !important;
+}
+
+
+
+/* CustomerForm.css */
+ 
+ 
+.remove-button {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.button-content {
+  display: flex;
+  align-items: center;
+}
+.add-customer-button::after {
+ 
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+ 
+.remove-button:hover::after {
+  opacity: 1;
+}
+ 
+.hover-text {
+  display: none;
+  margin-left: 5px; /* Adjust spacing between icon and text */
+}
+.remove-button:hover .hover-text {
+  display:inline-block;
+}
+.remove-button:focus {
+  outline: none; /* Optional: remove focus outline */
+}
+ 
+.icon {
+  color: inherit; /* Inherit color from parent element */
+}
+ 
+ 
+ 
+.remove-button {
+  background: none;
+  border: none;
+  padding: 10px;
+}
+ 
+.remove-icon {
+  margin-right: 0.3cm;
+  background: none;
+  border: none;
+  color: inherit; /* Inherit the color from the parent element */
+  font-size: inherit; /* Inherit the font size from the parent element */
+}
+.red-icon {
+  color: red;
+}
+.green-icon {
+  color: green;
+}
+ 
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+
+.close:hover {
+  color: red;
+}
+
+.closeButton:hover{
+  color: red;
+}

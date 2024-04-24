@@ -1,0 +1,331 @@
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  .customer-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .customer-table tbody tr:hover {
+    background-color: #E0FAE4;
+  }
+  
+  .customer-table tbody tr {
+    background-color: white;
+  }
+  
+  .action-buttons {
+   
+    justify-content: space-around;
+  }
+  
+  .action-buttons button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .edit-button {
+    color: green;
+  }
+  
+  .delete-button {
+    color: #dc3545;
+  }
+  .page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+/*   */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes at least the height of the viewport */
+}
+
+.container-fluid {
+  flex: 1; /* Expand to fill available space */
+}
+
+.Footer {
+  flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+.delete-button:hover .hover-text2 {
+  color: red; /* Change color on hover */
+  /* Add more hover effects as needed */
+}
+/* CSS */
+.delete-button {
+  position: relative; /* Add position relative to the button */
+}
+
+.delete-button .hover-text2 {
+  position: absolute;
+  top: calc(100% + 5px); /* Position the text 5px below the bottom of the button */
+  left: 100%; /* Adjust the left position to align with the button */
+  transform: translateX(-50%); /* Center the text horizontally */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Add transition effect for opacity */
+  background-color: #fff; /* Add background color */
+  color: #fff; /* Add text color */
+  padding: 5px; /* Add padding for better appearance */
+}
+.delete-button:hover .hover-text2 {
+  opacity: 1; /* Show the text on hover */
+}
+
+   
+.hover-text {
+  display: none;
+  position: absolute;
+  background-color: hwb(236 75% 0%);
+  color: #000;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  top: calc(100% + 5px);
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.edit-link:hover .hover-text {
+  display: block;
+}
+.hover-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: hwb(236 76% 0%);
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.edit-link:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+.edit-link {
+  position: relative;
+}
+
+.edit-link:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table td button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.table td button:hover {
+  color: #007bff;
+}
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.date-picker {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none; /* Remove border */
+}
+
+/* Action buttons within table cells */
+ 
+
+
+.action-buttons button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Edit button styles and hover text */
+
+.edit-button {
+  color: green;
+  position: relative;
+  display: inline-block; /* Ensures proper hover detection */
+}
+
+.hover-text {
+  position: absolute;
+  top: calc(100% + 5px); /* Position the text 5px below the bottom of the icon */
+  left: 50%; /* Adjust the left position to center the text */
+  transform: translateX(-50%); /* Center the text horizontally */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Add transition effect for opacity */
+  background-color: #fff; /* Add background color */
+  color: #000; /* Add text color */
+  padding: 5px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px; /* Add border radius for better appearance */
+}
+
+.edit-button:hover .hover-text {
+  opacity: 1; /* Show the text on hover */
+}
+
+/* Delete button styles and hover text */
+
+.delete-button {
+  position: relative; /* Add position relative to the button */
+}
+
+.delete-button .hover-text2 {
+  position: absolute;
+  top: calc(100% + 5px); /* Position the text 5px below the bottom of the button */
+  left: 100%; /* Adjust the left position to align with the button */
+  transform: translateX(-50%); /* Center the text horizontally */
+  opacity: 0; /* Initially hide the text */
+  transition: opacity 0.3s ease; /* Add transition effect for opacity */
+  background-color: #fff; /* Add background color */
+  color: #fff; /* Add text color */
+  padding: 5px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px; /* Add border radius for better appearance */
+}
+
+.delete-button:hover .hover-text2 {
+  opacity: 1; /* Show the text on hover */
+}
+
+
+.edit-link {
+  position: relative;
+}
+
+.edit-link:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hover-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.edit-link:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.hover-text {
+  display: none;
+  position: absolute;
+  background-color: hwb(236 75% 0%);
+  color: #000;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  top: calc(100% + 5px);
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.edit-link:hover .hover-text {
+  display: block;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-btn.active {
+  background-color: #0056b3;
+}
+
+.pagination-btn:hover {
+  background-color: #0056b3;
+}
