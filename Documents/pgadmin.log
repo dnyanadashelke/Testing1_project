@@ -1,0 +1,130 @@
+2023-05-25 14:58:19 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-05-25 14:58:21 ERROR  : Column not found in pgSet: usecreatedb
+2023-05-25 14:58:21 ERROR  : Column not found in pgSet: usesuper
+2023-05-25 14:58:22 ERROR  : Column not found in pgSet: upsince
+2023-05-25 14:58:22 ERROR  : Column not found in pgSet: confloadedsince
+2023-05-25 14:58:22 ERROR  : Column not found in pgSet: inrecovery
+2023-05-25 14:58:22 ERROR  : Column not found in pgSet: replayloc
+2023-05-25 14:58:23 ERROR  : Column not found in pgSet: receiveloc
+2023-05-25 14:58:23 ERROR  : Column not found in pgSet: replay_timestamp
+2023-05-25 14:58:23 ERROR  : Column not found in pgSet: isreplaypaused
+2023-05-25 14:58:48 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2023-05-25 14:58:50 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2023-05-25 14:58:52 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2023-05-25 14:58:54 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2023-05-25 14:59:00 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2023-05-25 16:13:33 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 3:     reqid integer,
+                  ^
+2023-05-25 16:13:44 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 3:     reqid integer,
+                  ^
+2023-05-25 16:13:58 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 3:     reqid integer,
+                  ^
+2023-05-25 16:14:06 ERROR  : ERROR:  syntax error at or near "integer"
+LINE 3:     req_id integer,
+                   ^
+2023-05-25 16:14:13 ERROR  : ERROR:  syntax error at or near "number"
+LINE 3:     req_id number,
+                   ^
+2023-05-25 16:14:24 ERROR  : ERROR:  syntax error at or near "group_customer_name"
+LINE 4:     group_customer_name text,
+            ^
+2023-05-25 16:14:34 ERROR  : ERROR:  syntax error at or near "text"
+LINE 3:     group_customer_name text,
+                                ^
+2023-05-25 16:14:41 ERROR  : ERROR:  syntax error at or near "text"
+LINE 3:     challenge_name text,
+                           ^
+2023-05-25 16:15:28 ERROR  : ERROR:  syntax error at or near ")"
+LINE 3: )
+        ^
+2023-05-25 16:15:38 ERROR  : ERROR:  type "number" does not exist
+LINE 2: (req_id number,group_customer_name text,challenge_name text,...
+                ^
+2023-05-25 16:24:44 ERROR  : ERROR:  syntax error at or near "text"
+LINE 3:     challenge_id text,
+                         ^
+2023-05-30 18:52:30 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2023-05-30 18:52:31 ERROR  : Column not found in pgSet: usecreatedb
+2023-05-30 18:52:31 ERROR  : Column not found in pgSet: usesuper
+2023-05-30 18:52:32 ERROR  : Column not found in pgSet: upsince
+2023-05-30 18:52:32 ERROR  : Column not found in pgSet: confloadedsince
+2023-05-30 18:52:32 ERROR  : Column not found in pgSet: inrecovery
+2023-05-30 18:52:33 ERROR  : Column not found in pgSet: replayloc
+2023-05-30 18:52:33 ERROR  : Column not found in pgSet: receiveloc
+2023-05-30 18:52:33 ERROR  : Column not found in pgSet: replay_timestamp
+2023-05-30 18:52:33 ERROR  : Column not found in pgSet: isreplaypaused
+2023-05-30 18:52:45 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2023-05-30 18:52:47 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2023-05-30 18:52:47 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2024-02-26 11:09:20 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2024-02-26 11:09:27 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2024-02-26 11:09:36 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2024-02-26 11:10:07 ERROR  : ERROR:  function pg_last_xlog_receive_location() does not exist
+LINE 1: ...E NULL END as inrecovery, CASE WHEN usesuper THEN pg_last_xl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2024-02-26 11:10:09 ERROR  : Column not found in pgSet: usecreatedb
+2024-02-26 11:10:10 ERROR  : Column not found in pgSet: usesuper
+2024-02-26 11:10:11 ERROR  : Column not found in pgSet: upsince
+2024-02-26 11:10:11 ERROR  : Column not found in pgSet: confloadedsince
+2024-02-26 11:10:11 ERROR  : Column not found in pgSet: inrecovery
+2024-02-26 11:10:11 ERROR  : Column not found in pgSet: replayloc
+2024-02-26 11:10:12 ERROR  : Column not found in pgSet: receiveloc
+2024-02-26 11:10:12 ERROR  : Column not found in pgSet: replay_timestamp
+2024-02-26 11:10:12 ERROR  : Column not found in pgSet: isreplaypaused
+2024-02-26 11:10:27 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2024-02-26 11:10:29 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2024-02-26 11:10:29 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2024-02-26 11:10:39 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2024-02-26 11:10:41 ERROR  : ERROR:  column rel.relhasoids does not exist
+LINE 1: ...t_userbyid(rel.relowner) AS relowner, rel.relacl, rel.relhas...
+                                                             ^
+2024-02-26 11:10:42 ERROR  : ERROR:  column "proisagg" does not exist
+LINE 9:  WHERE proisagg = FALSE AND pronamespace = 2200::oid
+               ^
+HINT:  Perhaps you meant to reference the column "pr.prolang".
+2024-04-15 12:29:03 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
